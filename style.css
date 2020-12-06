@@ -140,7 +140,7 @@ html{
 
 .wish-line{
     border-left: 9px solid;
-    border-image: linear-gradient(rgb(243, 9, 243) , darkviolet);
+    border-image: linear-gradient(red,rgb(236, 12, 236) );
     border-image-slice: 1;
 }
 
