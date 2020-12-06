@@ -1,0 +1,197 @@
+.div{
+    color: gray;
+    font-family: 'Gochi Hand', cursive;
+    font-size:18px ;
+}
+
+
+html{
+    overflow: auto;
+}
+.div h1{
+    background-repeat: no-repeat;
+    position: relative;
+    animation: Lefts 4s 1;
+    animation-fill-mode:forwards;
+    margin-top: 5%;
+}
+
+
+.div img{
+    animation: Bottom 10s 1;
+    animation-fill-mode:forwards;
+    margin-left: 45%;
+    width: 15%;
+    border-radius: 50%;
+}
+.div img:hover{
+    box-shadow: 5px 7px 20px black;
+}
+
+.div h2{
+    position: relative;
+    animation: Right 4s 1;
+    animation-fill-mode:forwards;
+}
+
+.div h3{
+    animation: Bottom 5s 1;
+    animation-fill-mode:forwards;
+}
+
+
+@keyframes Left{
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX(7%);}
+}
+
+@keyframes Lefts{
+  0%{transform : translateX(-100%);}
+  100%{transform : translateX(100%);}
+}
+
+.left{
+    animation: Left 4s 1;
+    animation-fill-mode:forwards;
+    margin-left: 45%;
+    width: 15%;
+    opacity:2;
+}
+
+.left2{
+    animation: Left 8s 1;
+    animation-fill-mode:forwards;
+    margin-left: 45%;
+    width: 15%;
+    opacity:2;
+}
+
+.left3{
+    animation: Left 16s 1;
+    animation-fill-mode:forwards;
+    margin-left: 45%;
+    width: 15%;
+    opacity:2;
+}
+
+
+
+.right{
+    animation: Right 6s 1;
+    animation-fill-mode:forwards;
+    margin-left: 45%;
+    width: 15%;
+    opacity:1;
+}
+
+.right2{
+    animation: Right 12s 1;
+    animation-fill-mode:forwards;
+    margin-left: 45%;
+    width: 15%;
+    opacity:1;
+}
+
+.right3{
+    animation: Right 23s 1;
+    animation-fill-mode:forwards;
+    margin-left: 45%;
+    width: 15%;
+    opacity:1;
+}
+
+
+
+
+
+
+@keyframes Right{
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(50%);}
+}
+
+@keyframes Bottom{
+    0%{transform: translateY(-50%);}
+    25%{transform:rotateY(360deg);}
+    50%{transform:rotateX(360deg);}
+    100%{transform: translateY(10%);}
+}
+
+.wish-container{
+    margin-top: 90px;
+    margin-left: 10%;
+    padding-top: 12px;
+    width: 49%;
+    height: auto;
+    margin-bottom: 12%;
+    box-shadow: 5px 7px 40px gray;
+}
+
+
+.wish{
+    padding: 19px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 12%;
+    text-align: left;
+    color: rgb(129, 126, 125);
+}
+
+.wish-line{
+    border-left: 9px solid;
+    border-image: linear-gradient(rgb(243, 9, 243) , darkviolet);
+    border-image-slice: 1;
+}
+
+.wish-container h1{
+    color: grey;
+    padding: 12px;
+    margin-left: 15px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.wish-container h3{
+    color: orange;
+    padding: 12px;
+    margin-left: 15px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.wish-container p{
+    color: grey;
+    font-size: 20px;
+    padding: 12px;
+    margin-left: 15px;
+    margin-bottom: 2%;
+    font-family: 'Gochi Hand', cursive;
+}
+
+
+input , textarea , button{
+    width: 50%;
+    margin-bottom: 4%;
+    height: 10%auto;
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+    box-shadow: 5px 7px 40px grey;
+    padding: 19px;
+    border-radius: 9px;
+    margin-left: 29%;
+    outline: none;
+}
+
+.super{
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+    animation: 1 5s Left;
+    margin-right: 10%;
+    animation-fill-mode: forwards;
+}
+
+
+footer{
+  text-align: center;
+  color: gray;
+}
